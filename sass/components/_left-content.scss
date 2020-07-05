@@ -1,0 +1,59 @@
+.left-content {
+  background-color: #1e2939;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -10px;
+  padding-top: 20px;
+}
+
+.item-contacts {
+  margin: 10px;
+}
+
+.contakt-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.con-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #515966;
+  padding-left: 10px;
+}
+.tel-email-nick {
+  margin-left: 10px;
+}
+.con-link-type,
+.tech-skills-title,
+.soft-skills-title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-right: 10px;
+}
+
+.tech-skills-coneiner li,
+.soft-skills-con li {
+  color: #ff6b08;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 10px;
+  list-style: circle;
+}
+
+.tech-skills-coneiner li span,
+.soft-skills-con li span {
+  color: #cacdd1;
+}
