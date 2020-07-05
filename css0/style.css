@@ -6,7 +6,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
-  
 }
 .waper {
   max-width: 960px;
@@ -22,7 +21,7 @@ body {
 
 .left-content {
   background-color: #1e2939;
-  width: 400px;
+  max-width: 400px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -35,6 +34,7 @@ body {
 }
 img {
   width: 100%;
+  display: block;
 }
 .contacts,
 .tech-skills-coneiner,
@@ -155,8 +155,6 @@ img {
 
 .date-work span {
   color: black;
-  width: 1200px;
-  height: 1319px;
 }
 
 .text-orange {
@@ -173,36 +171,38 @@ img {
   margin-left: 20px;
 }
 
-.text-uppercase{
+.text-uppercase {
   text-transform: uppercase;
 }
 
-.category-list * {transition: .4s linear;}
+.category-list * {
+  transition: 0.4s linear;
+}
 .category-list {
   background: white;
- 
+
   list-style-position: inside;
-  
 }
 .category-list li {
-  
   border-bottom: 1px solid #efefef;
   padding: 5px 0;
 }
 .category-list a {
   text-decoration: none;
-  
 }
-.category-list li span {
-  float: right;
-  display: inline-block;
-  
+.category-list li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid transparent;
+
   padding: 0 5px;
   font-size: 13px;
   color: #999;
 }
-.category-list li:hover a {color: #c93961;}
+.category-list li:hover a {
+  color: #c93961;
+}
 .category-list li:hover span {
   color: #c93961;
-  border: 1px solid #c93961;
+  /* border: 1px solid #c93961; */
 }
